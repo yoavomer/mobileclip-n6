@@ -1,0 +1,58 @@
+# --- Model weights and converted models (never committed) ---
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.tflite
+*.npy
+*.npz
+*.bin
+*.raw
+
+# --- Everything ST Edge AI (stedgeai) generates ---
+gout*/
+gws*/
+neural_art__network/
+st_ai_output/
+st_ai_ws/
+network_rel.bin
+network.c
+network.h
+network_*.c
+network_*.h
+network.csv
+c_info.json
+*_c_info.json
+*_network_generate_report.txt
+*.mpool
+atonbuf.*
+tmp*.dot
+
+# --- Data sets, calibration images, results ---
+data/
+calib_images/
+results/
+logs/
+*.jsonl
+
+# --- Board files ---
+liveword.bin
+
+# --- Python / tools ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Local secrets (none are needed; keep them out anyway) ---
+.env
+*.env
+secrets*

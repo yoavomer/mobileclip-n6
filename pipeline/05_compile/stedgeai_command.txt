@@ -1,0 +1,11 @@
+# The exact compile command (run from pipeline/05_compile, Git Bash). The arm-none-eabi-gcc that ships with
+# OpenMV IDE must be on PATH for the relocatable link step. This command reproduced the board binaries byte-for-byte.
+export PATH="$ARM_GCC_BIN:$PATH"
+"$STEDGEAI" generate \
+  -m <model>.onnx --target stm32n6 \
+  --st-neural-art softmax_gelu@neuralart_mci0.json --relocatable \
+  -w <out>/gws -o <out>/gout
+# Output: <out>/gout/network_rel.bin  (goes into ROMFS, 8-byte aligned; see pipeline/06_romfs)
+# Profile softmax_gelu in neuralart_mci0.json = --native-float --cache-maintenance --Ocache-opt --enable-virtual-mem-pools
+#   --Os --Oauto-sched --all-buffers-info --csv-file network.csv --enable-epoch-controller --expand-softmax --GELU-recognition
+#   memory pool stm32n6.mpool (OpenMV's file, unchanged). ST Edge AI Core v4.0.0-20500 (atonn 1.1.3-262).

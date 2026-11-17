@@ -1,0 +1,71 @@
+{
+ "out": "models/S1_stem_best3.onnx",
+ "sha256": "6a994393918362d6029bf81f554767a07349b582998d561ec13ab32f8d1ec99e",
+ "a2_zps": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "edits": [
+  {
+   "tensor": "/model/patch_embed/patch_embed.0/reparam_conv/Conv_output_0",
+   "old_scale": 0.3441915214061737,
+   "old_zp": 0,
+   "old_range": [
+    -44.056514739990234,
+    43.71232321858406
+   ],
+   "new_scale": 0.1806094829849638,
+   "new_zp": -119,
+   "new_range": [
+    -1.6254853468646742,
+    44.42993281430109
+   ],
+   "asked": [
+    -1.6168337112817994,
+    44.43858444988397
+   ]
+  },
+  {
+   "tensor": "/model/patch_embed/patch_embed.1/reparam_conv/Conv_output_0",
+   "old_scale": 0.29429924488067627,
+   "old_zp": -1,
+   "old_range": [
+    -37.376004099845886,
+    37.67030334472656
+   ],
+   "new_scale": 0.10438884033036284,
+   "new_zp": -109,
+   "new_range": [
+    -1.983387966276894,
+    24.635766317965633
+   ],
+   "asked": [
+    -1.9642776855537112,
+    24.654876598688816
+   ]
+  },
+  {
+   "tensor": "/model/patch_embed/patch_embed.2/reparam_conv/Conv_output_0",
+   "old_scale": 0.08872933685779572,
+   "old_zp": 0,
+   "old_range": [
+    -11.357355117797852,
+    11.268625780940056
+   ],
+   "new_scale": 0.020354258207896558,
+   "new_zp": -5,
+   "new_range": [
+    -2.503573759571277,
+    2.686762083442346
+   ],
+   "asked": [
+    -2.504434790978064,
+    2.685901052035558
+   ]
+  }
+ ],
+ "n_new_init": 6,
+ "n_dropped_init": 6
+}

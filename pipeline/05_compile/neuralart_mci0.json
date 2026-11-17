@@ -1,0 +1,18 @@
+{
+    "Globals": {
+    },
+    "Profiles": {
+        "default": {
+            "memory_pool": "stm32n6.mpool",
+            "options": "--native-float --cache-maintenance --Ocache-opt --enable-virtual-mem-pools --Os --Oauto-sched --all-buffers-info --csv-file network.csv --enable-epoch-controller"
+        },
+        "softmax": {
+            "memory_pool": "stm32n6.mpool",
+            "options": "--native-float --cache-maintenance --Ocache-opt --enable-virtual-mem-pools --Os --Oauto-sched --all-buffers-info --csv-file network.csv --enable-epoch-controller --expand-softmax"
+        },
+        "softmax_gelu": {
+            "memory_pool": "stm32n6.mpool",
+            "options": "--native-float --cache-maintenance --Ocache-opt --enable-virtual-mem-pools --Os --Oauto-sched --all-buffers-info --csv-file network.csv --enable-epoch-controller --expand-softmax --GELU-recognition"
+        }
+    }
+}

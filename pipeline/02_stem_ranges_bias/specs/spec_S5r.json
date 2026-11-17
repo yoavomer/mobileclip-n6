@@ -1,0 +1,122 @@
+{
+ "/model/patch_embed/patch_embed.0/reparam_conv/Conv_output_0": [
+  -1.6254853468646742,
+  44.42993281430109
+ ],
+ "/model/patch_embed/patch_embed.1/reparam_conv/Conv_output_0": [
+  -1.983387966276894,
+  24.635766317965633
+ ],
+ "/model/patch_embed/patch_embed.2/reparam_conv/Conv_output_0": [
+  -2.503573759571277,
+  2.686762083442346
+ ],
+ "/model/network.0/network.0.1/convffn/fc1/Conv_output_0": [
+  -2.3141955209615412,
+  3.89759245635628
+ ],
+ "/model/network.1/proj/proj.1/reparam_conv/Conv_output_0": [
+  -2.5539921907575356,
+  1.0244034611280226
+ ],
+ "/model/network.2/network.2.1/convffn/fc1/Conv_output_0": [
+  -2.7456152534289444,
+  1.4218364705257034
+ ],
+ "/model/network.2/network.2.3/convffn/fc1/Conv_output_0": [
+  -2.416933855563175,
+  1.1251243810380298
+ ],
+ "/model/network.2/network.2.5/convffn/fc1/Conv_output_0": [
+  -2.7607932515318474,
+  1.5848998295830976
+ ],
+ "/model/network.3/proj/proj.1/reparam_conv/Conv_output_0": [
+  -1.9556973158365196,
+  0.8460038950528764
+ ],
+ "/model/network.4/network.4.1/convffn/fc1/Conv_output_0": [
+  -2.8669075449434454,
+  1.7022263548101708
+ ],
+ "/model/network.4/network.4.3/convffn/fc1/Conv_output_0": [
+  -3.0882073800402647,
+  1.6844767527492353
+ ],
+ "/model/network.4/network.4.5/convffn/fc1/Conv_output_0": [
+  -3.086106896947879,
+  1.5430534484739395
+ ],
+ "/model/network.4/network.4.7/convffn/fc1/Conv_output_0": [
+  -3.09911793457409,
+  1.840101273653366
+ ],
+ "/model/network.4/network.4.9/convffn/fc1/Conv_output_0": [
+  -2.9775491369920792,
+  2.118256433027922
+ ],
+ "/model/network.5/proj/proj.1/reparam_conv/Conv_output_0": [
+  -2.718810581424946,
+  1.9341873934969414
+ ],
+ "/model/network.7/network.7.1/convffn/fc1/Conv_output_0": [
+  -2.9840852546444623,
+  3.690842288639203
+ ],
+ "/model/network.0/network.0.0/convffn/fc1/Conv_output_0": [
+  -2.91312505030941,
+  4.029369228465352
+ ],
+ "/model/network.1/proj/proj.0/lkb_reparam/Conv_output_0": [
+  -2.7627669119514136,
+  20.7207518396356
+ ],
+ "/model/network.2/network.2.0/convffn/fc1/Conv_output_0": [
+  -2.683307419267834,
+  1.8481057722109586
+ ],
+ "/model/network.2/network.2.2/convffn/fc1/Conv_output_0": [
+  -2.8087808711492186,
+  1.7532517539657544
+ ],
+ "/model/network.2/network.2.4/convffn/fc1/Conv_output_0": [
+  -2.3955256974519674,
+  1.329224624805665
+ ],
+ "/model/network.3/proj/proj.0/se/Mul_output_0": [
+  -2.2884472456116765,
+  4.419070543250133
+ ],
+ "/model/network.4/network.4.0/convffn/fc1/Conv_output_0": [
+  -3.11374805615843,
+  1.58451084514571
+ ],
+ "/model/network.4/network.4.2/convffn/fc1/Conv_output_0": [
+  -2.58928402738496,
+  1.4123367422099782
+ ],
+ "/model/network.4/network.4.4/convffn/fc1/Conv_output_0": [
+  -2.7063853400983833,
+  1.6340439789273258
+ ],
+ "/model/network.4/network.4.6/convffn/fc1/Conv_output_0": [
+  -3.2022942465323045,
+  1.9013622088785558
+ ],
+ "/model/network.4/network.4.8/convffn/fc1/Conv_output_0": [
+  -2.96516620525385,
+  2.51394526097609
+ ],
+ "/model/network.5/proj/proj.0/se/Mul_output_0": [
+  -2.912289819897201,
+  4.160414028424573
+ ],
+ "/model/network.7/network.7.0/convffn/fc1/Conv_output_0": [
+  -2.9879423579427518,
+  2.02472409781647
+ ],
+ "/model/conv_exp/se/Mul_output_0": [
+  -2.8650532806786835,
+  2.933268834980557
+ ]
+}

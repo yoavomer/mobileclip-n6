@@ -1,0 +1,10 @@
+# PC side (export, quantization, emulator, evaluation, live word). Versions that were used:
+torch==2.15.0
+torchvision==0.29.2
+timm==1.0.31
+open_clip_torch==4.2.1
+onnx==1.23.2
+onnxruntime==1.31.1
+numpy==2.5.4
+pillow==13.0.0
+# plus Apple's MobileCLIP package:  git clone https://github.com/apple/ml-mobileclip && pip install -e ml-mobileclip

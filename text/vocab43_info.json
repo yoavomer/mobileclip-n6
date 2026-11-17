@@ -1,0 +1,285 @@
+{
+ "n": 43,
+ "display": [
+  "cup",
+  "mug",
+  "phone",
+  "remote",
+  "keyboard",
+  "laptop",
+  "pen",
+  "pencil",
+  "bottle",
+  "glass",
+  "monitor",
+  "television",
+  "mouse",
+  "book",
+  "chair",
+  "lamp",
+  "clock",
+  "watch",
+  "backpack",
+  "shoe",
+  "sunglasses",
+  "wallet",
+  "teddy bear",
+  "banana",
+  "orange",
+  "apple",
+  "plant",
+  "couch",
+  "pillow",
+  "umbrella",
+  "teapot",
+  "toaster",
+  "vase",
+  "plate",
+  "bowl",
+  "spoon",
+  "candle",
+  "towel",
+  "printer",
+  "desk",
+  "scissors",
+  "painting",
+  "mirror"
+ ],
+ "prompt_names": [
+  "cup",
+  "mug",
+  "mobile phone",
+  "remote control",
+  "computer keyboard",
+  "laptop",
+  "pen",
+  "pencil",
+  "bottle",
+  "drinking glass",
+  "computer monitor",
+  "television",
+  "computer mouse",
+  "book",
+  "chair",
+  "lamp",
+  "clock",
+  "wristwatch",
+  "backpack",
+  "shoe",
+  "sunglasses",
+  "wallet",
+  "teddy bear",
+  "banana",
+  "orange",
+  "apple",
+  "potted plant",
+  "couch",
+  "pillow",
+  "umbrella",
+  "teapot",
+  "toaster",
+  "vase",
+  "plate",
+  "bowl",
+  "spoon",
+  "candle",
+  "towel",
+  "printer",
+  "desk",
+  "scissors",
+  "painting",
+  "mirror"
+ ],
+ "new_entries": [
+  "painting",
+  "mirror"
+ ],
+ "selfcheck_old41_maxabs_vs_W5_fp32": 0.0,
+ "old41_int8_rows_equal_W5_bin": true,
+ "old41_scales_equal_W5_bin": true,
+ "int8_vs_fp32_row_cos_min": 0.9994831563112773,
+ "int8_vs_fp32_row_cos_mean": 0.9995573422262971,
+ "parse_back_q_equal": true,
+ "crc32": "0x805e30b8",
+ "bytes": 22204,
+ "closest_other_entry": {
+  "cup": [
+   "mug",
+   0.9428
+  ],
+  "mug": [
+   "cup",
+   0.9428
+  ],
+  "phone": [
+   "remote",
+   0.8853
+  ],
+  "remote": [
+   "phone",
+   0.8853
+  ],
+  "keyboard": [
+   "laptop",
+   0.8733
+  ],
+  "laptop": [
+   "monitor",
+   0.8909
+  ],
+  "pen": [
+   "pencil",
+   0.9166
+  ],
+  "pencil": [
+   "pen",
+   0.9166
+  ],
+  "bottle": [
+   "glass",
+   0.8851
+  ],
+  "glass": [
+   "cup",
+   0.9186
+  ],
+  "monitor": [
+   "television",
+   0.917
+  ],
+  "television": [
+   "monitor",
+   0.917
+  ],
+  "mouse": [
+   "keyboard",
+   0.8444
+  ],
+  "book": [
+   "wallet",
+   0.843
+  ],
+  "chair": [
+   "couch",
+   0.8585
+  ],
+  "lamp": [
+   "candle",
+   0.857
+  ],
+  "clock": [
+   "watch",
+   0.8922
+  ],
+  "watch": [
+   "clock",
+   0.8922
+  ],
+  "backpack": [
+   "wallet",
+   0.8165
+  ],
+  "shoe": [
+   "bottle",
+   0.8114
+  ],
+  "sunglasses": [
+   "glass",
+   0.811
+  ],
+  "wallet": [
+   "book",
+   0.843
+  ],
+  "teddy bear": [
+   "apple",
+   0.7809
+  ],
+  "banana": [
+   "apple",
+   0.7982
+  ],
+  "orange": [
+   "apple",
+   0.8085
+  ],
+  "apple": [
+   "orange",
+   0.8085
+  ],
+  "plant": [
+   "vase",
+   0.8342
+  ],
+  "couch": [
+   "chair",
+   0.8585
+  ],
+  "pillow": [
+   "couch",
+   0.8401
+  ],
+  "umbrella": [
+   "pen",
+   0.802
+  ],
+  "teapot": [
+   "cup",
+   0.8381
+  ],
+  "toaster": [
+   "printer",
+   0.8011
+  ],
+  "vase": [
+   "cup",
+   0.8775
+  ],
+  "plate": [
+   "bowl",
+   0.8724
+  ],
+  "bowl": [
+   "cup",
+   0.8863
+  ],
+  "spoon": [
+   "pen",
+   0.8358
+  ],
+  "candle": [
+   "lamp",
+   0.857
+  ],
+  "towel": [
+   "pillow",
+   0.8329
+  ],
+  "printer": [
+   "laptop",
+   0.8634
+  ],
+  "desk": [
+   "laptop",
+   0.8469
+  ],
+  "scissors": [
+   "pen",
+   0.8334
+  ],
+  "painting": [
+   "book",
+   0.8143
+  ],
+  "mirror": [
+   "television",
+   0.8053
+  ]
+ },
+ "sha256": {
+  "text_vocab43_templates80.npy": "d9827e9676273a807388cc6e5e8c64c11a2e5cdfef04bb25d9fa676deebdea49",
+  "demo_text.bin": "ef5db5e32346de169a31319256e1cc8c772bea715599dfea0642e5089030b975",
+  "demo_text.txt": "3b103aa377fc4ae95a951358ac5988fc8d17628d8a096c193feaf073f0b9e136"
+ },
+ "seconds": 88.5
+}
